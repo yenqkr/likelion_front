@@ -4,6 +4,8 @@
   top: 0;
   width: 260px;
   height: 100%;
+  // 창 height 줄였을 때 y축 스크롤(여기서는 header 잘렸을 때 스크롤)
+  overflow-y: auto;
   z-index: 10000;
   background-color: #000;
 }
