@@ -3,6 +3,7 @@ import { Helmet, HelmetProvider } from "react-helmet-async";
 
 import Header from "./Header";
 import Footer from "./Footer";
+import Search from "./Search";
 
 // props - data 전달 역할
 const Main = (props) => {
@@ -19,6 +20,7 @@ const Main = (props) => {
 
       <Header />
       <main id="main" role="main">
+        <Search />
         {props.children}
       </main>
       <Footer />
